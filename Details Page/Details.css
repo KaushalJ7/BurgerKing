@@ -1,0 +1,183 @@
+body{
+    margin:auto;
+    background-color: rgb(228, 219, 199);
+    color: black;
+}
+.mydark{
+    background-color:rgb(73, 73, 71);
+    color:white;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Header CSS*/
+header{
+    height: 50px;
+    /* border: 5px solid red; */
+    background-color: rgb(100, 44, 4);
+    color: white;
+    font-size: 12px;
+       width: 100%;
+}
+
+button > a{
+    color: rgb(100, 44, 4)
+}
+
+button{
+    height:25px;
+    width:60px;
+    background-color: white;
+    color:rgb(100, 44, 4);
+    margin: 6px;
+    border: none;
+}
+
+#icon{
+    float: left;
+    display: flex;
+    margin: 7px;
+}
+
+#icon > h1{
+    margin: 5px;
+}
+
+#icon >a > img{
+    height: 60px;
+    width: 60px;
+    border-radius: 7px;
+    margin: 1px;
+}
+
+#social{
+    float: right;
+    margin: 7px;
+
+}
+
+/* details CSS */
+#container{
+    height: 400px;
+    width: 95%;
+    /* border: 2px solid black; */
+    margin-left: 3%;
+    display: inline-block;
+}
+
+.container1{
+    height: 98%;
+    width: 40%;
+    /* border: 2px solid red; */
+    float:left;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+
+img{
+    height:100%;
+    width: 100%;
+    border: 5px groove black;
+    box-shadow: 7px 9px 11px black;
+}
+
+.container2{
+    height: 100%;
+    width: 55%;
+    /* border: 2px solid green; */
+    float: left;
+    margin-left: 3%;
+    color: black;
+}
+
+.starclass{
+    font-size: 25px;
+    color: orange;
+}
+
+.starclass1{
+    color: white;
+}
+
+.figurecontainer{
+    width: 100%;
+    display: inline-block;
+    box-shadow: none;
+    border: none;
+}
+
+figure{
+    height:90px;
+    width:160px;
+    float: left;
+}
+
+.figure > img{
+    height: 100%;
+    width : 100%;
+    margin: none;
+    float: left;
+}
+
+/*Footer CSS*/
+footer{
+    /* height:100px; */
+    /* border: 5px solid pink; */
+    background-color:  rgb(77, 33, 2);
+    color: white;
+    text-align: center;
+}
+
+.footdiv{
+    height: 40px;
+    width: 30%;
+    display: inline-block;
+    border-right: 2px solid white;
+    font-size: 16px;
+}
+
+.footdiv p{
+    color: white;
+}
+
+.noborder{
+    border: none;
+}
+
+#foottext{
+    margin-top: 3%;
+}
+.footdiv1{
+    height: 40px;
+    width: 30%;
+    display: inline-block;
+    /* border-right: 2px solid white; */
+    font-size: 16px;
+}
+
+.footdiv1 > img{
+    height: 34px;
+    width: 34px;
+    border-radius: 7px;
+}
+
+.footdiv1social > img{
+    height: 10px;
+    width: 10px;
+    border-radius: 7px;
+    display: inline-block;
+}
+
+.social{
+    height: 34px;
+    width: 34px;
+    border-radius: 7px;
+}
+
+
+
+
+
