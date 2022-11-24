@@ -4,8 +4,8 @@ body{
     color: black;
 }
 .mydark{
-    background-color:rgb(73, 73, 71);
-    color:white;
+    background-color:rgb(206, 179, 143);
+    color:black;
 }
 
 
@@ -158,6 +158,22 @@ select{
 
 .areaselect{
     width: 59%;
+}
+
+#coupon{
+    height: 170px;
+    width:420px;
+    /* background-color:rgb(154, 156, 150); */
+    margin-left: 30%;
+    position: absolute;
+    z-index: 60;
+    margin-top:6%;
+    visibility: hidden;
+}
+
+#coupon img{
+    width: 100%;
+    height: 100%;
 }
 
 /*Our Menu CSS*/

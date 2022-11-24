@@ -4,21 +4,23 @@
         <title>Burger King</title>
         <link href="https://i.ibb.co/PGjhgrZ/TB-Icon.png" rel="icon"/>
         <link href="home.css" rel="stylesheet" type="text/css"/>
+        <script src="home.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
         <!--Header Section-->
         <Header>
             <div id="icon">
-                    <img src="https://i.ibb.co/PGjhgrZ/TB-Icon.png" alt="TB Icon"/>
+                    <img src="https://i.ibb.co/PGjhgrZ/TB-Icon.png" alt="BK Icon"/>
                 </a>
                 <h1>Burger King</h1>
-                <button onClick="changeMode()"><a href="index.html">Home</a></button>
+                <button><a href="index.html">Home</a></button>
+                <button onClick="changeMode()">Mode</button>
             </div>
             <div id="social">
-                <button onClick="changeMode()"><a href="../Homepage/login.html">Login</a></button>
-                <button onClick="changeMode()"><a href="../Homepage/signup.html">Sign Up</a></button>
-                <button onClick="changeMode()"><a href="../Homepage/index.html">Cart</a></button>
+                <button><a href="Homepage/login.html">Login</a></button>
+                <button><a href="Homepage/signup.html">Sign Up</a></button>
+                <button><a href="index.html">Cart</a></button>
                
             </div>         
         </Header>
@@ -26,7 +28,7 @@
         <div id="poster">
             <div id="container">
                 <div id="logo">
-                    <img src="https://i.ibb.co/PGjhgrZ/TB-Icon.png" alt="TB Icon"/>
+                    <img src="https://i.ibb.co/PGjhgrZ/TB-Icon.png" alt="BK Icon"/>
                 </div>
                 <div id="heading">
                     Find Burger King Stores NearBy
@@ -52,6 +54,10 @@
                             <option>Annanagar</option>
                             <Option>Jubilee Hills</Option>
                     </select>
+                </div>      
+                <div id="coupon">
+                    <button onClick="closeCoupon()">&times; </button>
+                    <img src="https://i.ibb.co/4K082Tg/bk60.png" alt="bk60"/>
                 </div>
             </div>
         </div>
@@ -286,17 +292,17 @@
          <hr/>  
             <div id="footmain">
                 <div class="footdiv">
-                    <a href="about.html" target="_blank" >
+                    <a href="Homepage/about.html" target="_blank" >
                     <p>About Us</p>
                     </a>
                 </div>
                 <div class="footdiv">
-                    <a href="contact.html" target="_blank" >
+                    <a href="Homepage/contact.html" target="_blank" >
                     <p>Contact Us</p>
                     </a>               
                 </div>
                 <div class="footdiv noborder">
-                    <a href="terms.html" target="_blank" >
+                    <a href="Homepage/terms.html" target="_blank" >
                         <p>Terms & Condition</p>
                     </a>               
                 </div>
@@ -304,23 +310,23 @@
                
             <div id="foottext">
                 <div class="footdiv1">
-                    <img src="image/TB Icon.png" alt="TB Icon" class="iconhome"/>
+                    <img src="https://i.ibb.co/ZXCpXsP/TB-Icon.png" alt="BK Icon" class="iconhome"/>
                 </div>
                 <div class="footdiv1">
                     <P>&copy;Developer KaushalJ7 &hearts;</P>
                 </div>
                 <div class="footdiv1">
                     <a href="https://www.facebook.com/" target="_blank" >
-                        <img src="image/facebook.jpg" alt="fb" class="social"/>
+                        <img src="https://i.ibb.co/0Mnvgrr/facebook.jpg" alt="fb" class="social"/>
                     </a>
                     <a href="https://www.instagram.com/" target="_blank">
-                        <img src="image/insta.png" alt="insta" class="social"/>
+                        <img src="https://i.ibb.co/ZG0mY93/insta.png" alt="insta" class="social"/>
                     </a>
                     <a href="https://www.youtube.com/" target="_blank" >
-                        <img src="image/youtube.png" alt="ytube" class="social"/>
+                        <img src="https://i.ibb.co/0XYhYZ8/youtube.png" alt="ytube" class="social"/>
                     </a>
                     <a href="https://twitter.com/" target="_blank">
-                        <img src="image/twitter.png" alt="twit" class="social"/>
+                        <img src="https://i.ibb.co/CJK9nv5/twitter.png" alt="twit" class="social"/>
                     </a>
                 </div>
             </div>
@@ -330,6 +336,7 @@
                 let mybody = document.body;
                 mybody.classList.toggle('mydark')  
             }
+            window.onload = loadCoupon()
         </script>
     </body>
 </html>

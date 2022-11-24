@@ -4,32 +4,47 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <link href="home.css" rel="stylesheet" type="text/css"/>
-        <title>Burger King</title>
-        <link href="home.css" rel="stylesheet" type="text/css"/>
+        <link href="../home.css" rel="stylesheet" type="text/css"/>
+        <title>BurgerKing</title>
         <link href="https://i.ibb.co/PGjhgrZ/TB-Icon.png" rel="icon"/>
         <script src="https://kit.fontawesome.com/c4338603d0.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <Header>
             <div id="icon">
-                <!-- <a href="index.html"><img src="https://i.ibb.co/ZXCpXsP/TB-Icon.png" alt="TB Icon"/>
-                </a> -->
-                <h1>Burger King</h1>
-                <button onClick="changeMode()"> <a href="index.html"> Home</a></button>
+                <h1>BurgerKing</h1>
+                <button> <a href="../index.html"> Home</a></button>
+                <button onClick="changeMode()">Mode</button>
             </div>
             <div id="social">
-                <button onClick="changeMode()"><a href="index.html">Login</a></button>
-                <button onClick="changeMode()"><a href="index.html">Sign Up</a></button>
-                <button onClick="changeMode()"><a href="index.html">Cart</a></button>
+                <button><a href="login.html">Login</a></button>
+                <button><a href="signup.html">Sign Up</a></button>
+                <button><a href="../index.html">Cart</a></button>
             </div> 
         </Header>
         <hr/>
         <div class="container">  
-            <img src="https://i.ibb.co/Jqkk932/Screenshot-2022-11-19-211909.png" alt="about" style="width:100%; height:600px"/>
-    
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    Login Form
+                </div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label for="email">Email address:</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Password:</label>
+                        <input type="password" class="form-control" id="pwd">
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox"> Remember me</label>
+                    </div>
+                    <button class="btn btn-success">Submit</button>
+                </div>
+            </div>
         </div>   
-        <hr/> 
+        <hr/>
         <hr/>
 
         <footer>
@@ -53,7 +68,7 @@
                 </div>    
             <div id="foottext">
                 <div class="footdiv1">
-                        <img src="https://i.ibb.co/ZXCpXsP/TB-Icon.png" alt="TB Icon" class="iconhome"/>
+                        <img src="https://i.ibb.co/ZXCpXsP/TB-Icon.png" alt="BK Icon" class="iconhome"/>
                 </div>
                 <div class="footdiv1">
                     <P>&copy;Developer KaushalJ7 &hearts;</P>
@@ -74,5 +89,11 @@
                 </div>
             </div>
         </footer>
+        <script>
+            const changeMode = () => {
+                let mybody = document.body;
+                mybody.classList.toggle('mydark')  
+            }
+        </script>
     </body>
 </html>
