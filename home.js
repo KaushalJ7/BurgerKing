@@ -1,13 +1,29 @@
+const changeMode = () => {
+    let mybody = document.body;
+    mybody.classList.toggle('mydark')  
+}
+window.onload = loadCoupon()
+
+
 function loadCoupon(){
-    document.getElementById('coupon').style.visibility = 'visible';
-    document.getElementById('coupon').style.opacity='0.8';
+document.getElementById('coupon').style.visibility = 'visible';
+document.getElementById('coupon').style.opacity='0.8';
 }
 
 function closeCoupon(){
     document.getElementById('coupon').style.visibility = 'hidden';
     document.getElementById('coupon').style.opacity='0.9';
-}
+}  
+ 
 
+// Declaring the variables
+let lon;
+let lat;
+let temperature = document.querySelector(".temp");
+let summary = document.querySelector(".summary");
+let loc = document.querySelector(".location");
+let icon = document.querySelector(".icon");
+const kelvin = 273;
 window.addEventListener("load", () => {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition((position) => {
@@ -38,5 +54,8 @@ window.addEventListener("load", () => {
         });
     }
     });
+          
+            
+     
 
 

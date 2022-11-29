@@ -4,8 +4,9 @@
         <title>BurgerKing</title>
         <link href="https://i.ibb.co/PGjhgrZ/TB-Icon.png" rel="icon"/>
         <link href="home.css" rel="stylesheet" type="text/css"/>
-        <!-- <script src="home.js"></script> -->
+        
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     </head>
     <body>
         <!--Header Section-->
@@ -58,13 +59,13 @@
                 <div id="coupon">
                     <button onClick="closeCoupon()">&times; </button>
                     <img src="https://i.ibb.co/4K082Tg/bk60.png" alt="bk60"/>
-                </div>
-                <div class="weather">
+                </div>   
+                <div class="weather-container">    
                     <div class="icon">---</div>
                     <div class="temp">-°C</div>
                     <div class="summary">----</div>
-                    <div class="location"></div>
-                </div>
+                    <div class="location"></div>   
+                </div>    
             </div>
         </div>
         <!--Our Menu Section-->
@@ -337,55 +338,7 @@
                 </div>
             </div>
         </footer>
-        <script>
-            const changeMode = () => {
-                let mybody = document.body;
-                mybody.classList.toggle('mydark')  
-            }
-            window.onload = loadCoupon()
-            function loadCoupon(){
-                document.getElementById('coupon').style.visibility = 'visible';
-                document.getElementById('coupon').style.opacity='0.8';
-            }
-
-            function closeCoupon(){
-                document.getElementById('coupon').style.visibility = 'hidden';
-                document.getElementById('coupon').style.opacity='0.9';
-            }
-
-            window.addEventListener("load", () => {
-                if (navigator.geolocation) {
-                    navigator.geolocation.getCurrentPosition((position) => {
-                    console.log(position);
-                    lon = position.coords.longitude;
-                    lat = position.coords.latitude;
-
-                    // API ID
-                    const api ="6d055e39ee237af35ca066f35474e9df";
-
-                    // API URL
-                    const base = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&` +`lon=${lon}&appid=6d055e39ee237af35ca066f35474e9df`;
-
-                    // Calling the API
-                    fetch(base)
-                        .then((response) => {
-                        return response.json();
-                        })
-                        .then((data) => {
-                        console.log(data);
-                        temperature.textContent = 
-                            Math.floor(data.main.temp - kelvin) + "°C";
-                        summary.textContent = data.weather[0].description;
-                        loc.textContent = data.name + "," + data.sys.country;
-                        let icon1 = data.weather[0].icon;
-                        icon.innerHTML = `<img src="https://i.ibb.co/sgqxpqP/weather.gif" style= 'height:50px'/>`;
-                        });
-                    });
-                }
-                });
-          
-            
-        </script>
+        <script src="home.js"></script>
     </body>
 </html>
 

@@ -55,7 +55,7 @@ button{
 
 img{
    
-    border: 5px groove black;
+    border: 4px groove black;
     box-shadow: 7px 9px 11px black;
 }
 
@@ -176,7 +176,7 @@ select{
     height: 100%;
 }
 
-.weather {
+.weather-container {
     height: 125px;
     width: 120px;
     background-color: rgb(228, 209, 172);
