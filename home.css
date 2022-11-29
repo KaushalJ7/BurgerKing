@@ -176,7 +176,7 @@ select{
     height: 100%;
 }
 
-/* .weather {
+.weather {
     height: 125px;
     width: 120px;
     background-color: rgb(228, 209, 172);
@@ -184,8 +184,8 @@ select{
     padding-top: 12px;
     border-radius: 16px;
     /* border: 2px solid rgb(14, 43, 1); */
-    /* margin-left: 83%; */
-/* } */ 
+    margin-left: 83%;
+} 
 
 /*Our Menu CSS*/
 #ourmenu{
