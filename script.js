@@ -44,7 +44,7 @@ let x = document.getElementById('out');
                     console.log(data)
                     let city = data.city.name
                     let temp = data.list[0].temp.day
-                    y.innerText = `Cit ${city} Temp. ${temp} °C`
+                    y.innerText = `City ${city} Temp. ${temp} °C`
                 })
             }
             
