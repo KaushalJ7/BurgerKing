@@ -84,7 +84,7 @@ img{
     margin-top: 5px;
     position: absolute;
     color: white;
-    animation:revolve 10s infinite;
+    animation:revolve 20s infinite;
 }
 
 #logo >img{
@@ -177,14 +177,17 @@ select{
 }
 
 .weather-container {
-    height: 125px;
+    height: 192px;
     width: 120px;
-    background-color: rgb(228, 209, 172);
+    /* background-color:rgb(100, 44, 4); */
     text-align: center;
-    padding-top: 12px;
-    border-radius: 16px;
+    /* padding-top: 12px; */
+    /* border-radius: 16px; */
     /* border: 2px solid rgb(14, 43, 1); */
-    margin-left: 83%;
+    margin-left: 88%;
+    position: absolute;
+    margin-top: 14.5%;
+ 
 } 
 
 /*Our Menu CSS*/

@@ -20,6 +20,7 @@
                 <a><button onClick="changeMode()">Mode</button></a>
             </div>
             <div id="social">
+                
                 <button><a href="Homepage/login.html">Login</a></button>
                 <button><a href="Homepage/signup.html">Sign Up</a></button>
                 <button><a href="index.html">Cart</a></button>
@@ -62,11 +63,10 @@
                     <img src="https://i.ibb.co/4K082Tg/bk60.png" alt="bk60"/>
                 </div>   
                 <div class="weather-container">
-                    <div class="icon">---</div>
-                    <div class="temp">-°C</div>
-                    <div class="summary">----</div>
-                    <div class="location"></div>
-                  </div>
+                    <img src="https://i.ibb.co/sgqxpqP/weather.gif" style='height:40px' onClick="geolocation()"/>
+                    <p id="out"></p>
+                    <p id="weather"></p>
+                </div>
             </div>
         </div>
         <!--Our Menu Section-->
@@ -339,7 +339,7 @@
                 </div>
             </div>
         </footer>
-        <script src="home.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>
 
