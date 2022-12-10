@@ -32,7 +32,7 @@ let x = document.getElementById('out');
                 console.log(data);
                 let lat = data.coords.latitude;
                 let long = data.coords.longitude;
-                let out = `Lat. ${lat} Long. ${long}`
+                let out = `Lat ${lat} Lon ${long}`
                 x.innerText = out
                 const url = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${long}&mode=json&units=metric&cnt=5&appid=fbf712a5a83d7305c3cda4ca8fe7ef29`
                 ///api calling
@@ -44,7 +44,7 @@ let x = document.getElementById('out');
                     console.log(data)
                     let city = data.city.name
                     let temp = data.list[0].temp.day
-                    y.innerText = `City ${city} Temp. ${temp} °C`
+                    y.innerText = `City ${city} Temp ${temp} °C`
                 })
             }
             

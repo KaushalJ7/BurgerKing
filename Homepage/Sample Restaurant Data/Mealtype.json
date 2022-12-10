@@ -1,0 +1,32 @@
+db.mealType.insert([
+    {
+        "mealtype_id": 1,
+        "mealtype": "Single Pack",
+        // "content": "1Classic American taste (Patty with cheese slice,lettuce,Tomato juice",
+        "meal_image": "https://i.ibb.co/SNBswqX/1top.png"
+    },
+    {
+        "mealtype_id": 2,
+        "mealtype": "Combo Pack",
+        // "content": "1Whooper + 1Cheesy Burger + 1Fries + 1Pepsi",
+        "meal_image": "https://i.ibb.co/dtGxWzq/1best.png"
+    },
+    {
+        "mealtype_id": 3,
+        "mealtype": "Family Pack",
+        // "content": "2Crispy Burger + 2Crunchy Burger + 1Fries + 1Choco Shake + 1Dessert",
+        "meal_image": "https://i.ibb.co/hXR6xT3/1family.png"
+    },
+    {
+        "mealtype_id": 4,
+        "mealtype": "Beverages",
+        // "content": "1Pepsi Medium",
+        "meal_image": "https://i.ibb.co/LYRPmqQ/1-Beverage.png"
+    },
+    {
+        "mealtype_id": 5,
+        "mealtype": "Desserts",
+        // "content": "1cup (Melty Chocolate filled with Mousse topped)",
+        "meal_image": "https://i.ibb.co/ck0Z2LP/1dessert.png"
+    },
+])

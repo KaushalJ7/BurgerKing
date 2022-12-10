@@ -1,0 +1,317 @@
+db.menu.insert([
+    {
+        "menu_id":1,
+        "menu_name": "Best Combo",
+        "description": "1Whooper + 1Cheesy Burger + 1Fries + 1Pepsi",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ibb.co/dtGxWzq/1best.png",
+        "menu_type": "Vegetarian",
+        "menu_price": "1000"
+    },
+    {
+        "menu_id":2,
+        "menu_name": "Best Combo",
+        "description": "1Whooper + 1Cheesy Burger + 1Fries + 1Pepsi",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ibb.co/dtGxWzq/1best.png",
+        "menu_type": " Non Vegetarian",
+        "menu_price": "1200"
+    },
+
+    {
+        "menu_id":3,
+        "menu_name": "Whooper",
+        "description": "1Whooper (with 7layers,bun, patty, onion,crispy,lettuce,tomato,creamy sauce)",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ibb.co/TW4mk8v/1whop.png",
+        "menu_type": "Vegetarian",
+        "menu_price": "550"
+    },
+    {
+        "menu_id":4,
+        "menu_name": "Whooper",
+        "description": "1Whooper (with 7layers,bun, patty, onion,crispy,lettuce,tomato,creamy sauce)",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ibb.co/TW4mk8v/1whop.png",
+        "menu_type": " Non Vegetarian",
+        "menu_price": "700"
+    },
+    {
+        "menu_id":5,
+        "menu_name": "Family Combo",
+        "description": "2Crispy Burger + 2Crunchy Burger + 1Fries + 1Choco Shake + 1Dessert",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ibb.co/hXR6xT3/1family.png",
+        "menu_type": "Vegetarian",
+        "menu_price": "2500"
+    },
+    {
+        "menu_id":6,
+        "menu_name": "Family Combo",
+        "description": "2Crispy Burger + 2Crunchy Burger + 1Fries + 1Choco Shake + 1Dessert",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ibb.co/hXR6xT3/1family.png",
+        "menu_price": "3000"
+    },
+    {
+        "menu_id":7,
+        "menu_name": "Stunner",
+        "description": "1Volcano + 1Crunchy Volcano + 1Tiki twist + 1Cheesy Burger",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ibb.co/mRkw216/1stun.png",
+        "menu_type": "Vegetarian",
+        "menu_price": "1500"
+    },
+    {
+        "menu_id":8,
+        "menu_name": "Stunner",
+        "description": "1Volcano + 1Crunchy Volcano + 1Tiki twist + 1Cheesy Burger",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ibb.co/mRkw216/1stun.png",
+        "menu_type": " Non Vegetarian",
+        "menu_price": "1800"
+    },
+    {
+        "menu_id":9,
+        "menu_name": "Top Picks",
+        "description": "1Classic American taste (Patty with cheese slice,lettuce,Tomato juice",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ibb.co/SNBswqX/1top.png",
+        "menu_type": "Vegetarian",
+        "menu_price": "500"
+    },
+    {
+        "menu_id":10,
+        "menu_name": "Top Picks",
+        "description": "1Classic American taste (Patty with cheese slice,lettuce,Tomato juice",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ibb.co/SNBswqX/1top.png",
+        "menu_type": " Non Vegetarian",
+        "menu_price": "700"
+    },
+    {
+        "menu_id":11,
+        "menu_name": "Tasty Burger",
+        "description": "1Crispy Burger (Patty, Onion, Juicy Sauce",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ibb.co/jDmZNX0/1Tasty.png",
+        "menu_type": "Vegetarian",
+        "menu_price": "650"
+    },
+    {
+        "menu_id":12,
+        "menu_name": "Tasty Burger",
+        "description": "1Crispy Burger (Patty, Onion, Juicy Sauce",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ibb.co/jDmZNX0/1Tasty.png",
+        "menu_type": " Non Vegetarian",
+        "menu_price": "900"
+    },
+    {
+        "menu_id":13,
+        "menu_name": "Classic Burger",
+        "description": "1Classic burger (Onion, Tomato, veg. strips and sauce)",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ibb.co/9bmqkXx/1burger.png",
+        "menu_type": "Vegetarian",
+        "menu_price": "600"
+    },
+    {
+        "menu_id":14,
+        "menu_name": "Classic Burger",
+        "description": "1Classic burger (Onion, Tomato, veg. strips and sauce)",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ibb.co/9bmqkXx/1burger.png",
+        "menu_type": " Non Vegetarian",
+        "menu_price": "850"
+    },
+    {
+        "menu_id":15,
+        "menu_name": "Breakfast",
+        "description": "1Whooper + 1Cheesy Burger + 1Fries + 1Pepsi",
+        "restaurant_id": 1,
+        "menu_image": "1Lite Whooper  + 1Fries + 1Pepsi",
+        "menu_type": "Vegetarian",
+        "menu_price": "400"
+    },
+    {
+        "menu_id":16,
+        "menu_name": "Breakfast",
+        "description": "1Whooper + 1Cheesy Burger + 1Fries + 1Pepsi",
+        "restaurant_id": 1,
+        "menu_image": "1Lite Whooper  + 1Fries + 1Pepsi",
+        "menu_type": " Non Vegetarian",
+        "menu_price": "550"
+    },
+    {
+        "menu_id":17,
+        "menu_name": "Fries",
+        "description": "1Fries (Crispy French Fries)",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ibb.co/VYpm2Lk/1fries.png",
+        "menu_type": "Vegetarian",
+        "menu_price": "150"
+    },
+    {
+        "menu_id":18,
+        "menu_name": "Bevrages",
+        "description": "1Pepsi Medium",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ibb.co/LYRPmqQ/1-Beverage.png",
+        "menu_type": " Vegetarian",
+        "menu_price": "100"
+    },
+    {
+        "menu_id":19,
+        "menu_name": "Cafe",
+        "description": "Cappuccino (with steamed milk & Milk fronth)",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ibb.co/LS7M3RH/1cafe.png",
+        "menu_type": "Vegetarian",
+        "menu_price": "150"
+    },
+    {
+        "menu_id":20,
+        "menu_name": "Wings",
+        "description": "7pcs of Boneless Chichen Wings",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ibb.co/Pwcgn6d/1wings.png",
+        "menu_type": " Non Vegetarian",
+        "menu_price": "300"
+    },
+    {
+        "menu_id":21,
+        "menu_name": "Dessert",
+        "description": "1cup (Melty Chocolate filled with Mousse topped)",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ibb.co/ck0Z2LP/1dessert.png",
+        "menu_type": "Vegetarian",
+        "menu_price": "150"
+    },
+    {
+        "menu_id":22,
+        "menu_name": "Brown Volcano",
+        "description": "1Brown volcano (chilli chesse patty,spicy sauce,soft buns & Vegs)",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ibb.co/SwCN3H9/1brow.png",
+        "menu_type": " Vegetarian",
+        "menu_price": "500"
+    },
+    {
+        "menu_id":23,
+        "menu_name": "Hashbrown",
+        "description": "1Hashbrown (potato,Fiery dio, Herby garlic,cheesy dip)",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ibb.co/dBqSz95/1hashbrown.jpg",
+        "menu_type": "Vegetarian",
+        "menu_price": "200"
+    },
+    {
+        "menu_id":24,
+        "menu_name": "Special Burger",
+        "description": "1Special Burger (Crispy patty,American taste,onion,lettuce,tomoto,sauce)",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ibb.co/5Tb8D6b/1special.png",
+        "menu_type": " Non Vegetarian",
+        "menu_price": "700"
+    },
+    {
+        "menu_id":25,
+        "menu_name": "Special Burger",
+        "description": "1Special Burger (Crispy patty,American taste,onion,lettuce,tomoto,sauce)",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ibb.co/5Tb8D6b/1special.png",
+        "menu_type": " Non Vegetarian",
+        "menu_price": "1000"
+    },
+    {
+        "menu_id":26,
+        "menu_name": "Lite Cheese Whooper",
+        "description": "1 Cheesy Lite Whooper",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ibb.co/dtGxWzq/1best.png",
+        "menu_type": "Vegetarian",
+        "menu_price": "600"
+    },
+    {
+        "menu_id":27,
+        "menu_name": "Lite Cheese Whooper",
+        "description": "1 Cheesy Lite Whooper",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ibb.co/BP0241Z/1lite.jpg",
+        "menu_type": " Non Vegetarian",
+        "menu_price": "800"
+    },
+    {
+        "menu_id":28,
+        "menu_name": "Cheesy Burger",
+        "description": "1Whooper + 1Cheesy Burger + 1Fries + 1Pepsi",
+        "restaurant_id": 1,
+        "menu_image": "1Cheesy Burger Cheese slice,crispy veg patty,onion,sauce)",
+        "menu_type": "Vegetarian",
+        "menu_price": "650"
+    },
+    {
+        "menu_id":29,
+        "menu_name": "Cheesy Burger",
+        "description": "1Cheesy Burger Cheese slice,crispy veg patty,onion,sauce)",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ibb.co/2vZ1X16/1cheesy.jpg",
+        "menu_type": " Non Vegetarian",
+        "menu_price": "850"
+    },
+    {
+        "menu_id":30,
+        "menu_name": "Volcano",
+        "description": "1Volcano (Saucy,Volcano shell with beans & veg mixs,crispy lettuce, onion, Sauce)",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ibb.co/RSXm8Dh/1volcano.jpg",
+        "menu_type": "Vegetarian",
+        "menu_price": "350"
+    },
+    {
+        "menu_id":31,
+        "menu_name": "Volcano",
+        "description": "1Volcano (Saucy,Volcano shell with beans & veg mixs,crispy lettuce, onion, Sauce)",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ibb.co/RSXm8Dh/1volcano.jpg",
+        "menu_type": " Non Vegetarian",
+        "menu_price": "450"
+    },
+    {
+        "menu_id":32,
+        "menu_name": "Tiki Twist",
+        "description": "1Tiki Twist (special burger with spicy sauce, tomato, mix veggies, Patty,ad crunchy twist)",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ibb.co/wLdzVJf/1tiki.jpg",
+        "menu_type": "Vegetarian",
+        "menu_price": "450"
+    },
+    {
+        "menu_id":33,
+        "menu_name": "Tiki Twist",
+        "description": "1Tiki Twist (special burger with spicy sauce, tomato, mix veggies, Patty,ad crunchy twist)",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ibb.co/wLdzVJf/1tiki.jpg",
+        "menu_type": " Non Vegetarian",
+        "menu_price": "550"
+    },
+    {
+        "menu_id":40,
+        "menu_name": "Crunchy Valcano",
+        "description": "1 Crunchy Volcano (Saucy,Volcano shell with beans & veg mixs,crunchy patty, onion, Sauce)",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ibb.co/JjzZ2dB/1crunchy.jpg",
+        "menu_type": "Vegetarian",
+        "menu_price": "300"
+    },
+    {
+        "menu_id":41,
+        "menu_name": "Crunchy Valcano",
+        "description": "1 Crunchy Volcano (Saucy,Volcano shell with beans & veg mixs,crunchy patty, onion, Sauce)",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ibb.co/JjzZ2dB/1crunchy.jpg",
+        "menu_type": " Non Vegetarian",
+        "menu_price": "400"
+    },
+])

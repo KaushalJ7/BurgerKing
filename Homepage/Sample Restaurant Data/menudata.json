@@ -1,0 +1,971 @@
+db.zomato.insert ([
+  {
+    "menu_id": 1,
+    "menu_name": "Best Combo",
+    "restaurant_id": 1,
+    "restaurant_name": "BurgerKing",
+    "location_id": 1,
+    "city_id": 1,
+    "address": " Ajmal Khan Rd, Block 13, WEA, Karol Bagh, New Delhi, Delhi 110005",
+    "average_rating": 4.5,
+    "rating_text": "Very Good",
+    "cost": 1000,
+    "contact_number": 9867543210,
+    "mealTypes": [
+      {
+        "mealtype_id": 1,
+        "mealtype_name": "Single Pack"
+      },
+      {
+        "mealtype_id": 2,
+        "mealtype_name": "Combo Pack"
+      },
+      {
+        "mealtype_id": 3,
+        "mealtype_name": "Family Pack"
+      },
+      {
+        "mealtype_id": 4,
+        "mealtype_name": "Beverages"
+      },
+      {
+        "mealtype_id": 5,
+        "mealtype_name": "Desserts"
+      }
+    ],
+    "foodtype": [
+      {
+        "foodtype_id": 1,
+        "foodtype_name": "Vegetarian"
+      },
+      {
+        "foodtype_id": 2,
+        "foodtype_name": "Non Vegetarian"
+      }
+    ],
+    "image_gallery": [
+      "https://i.ibb.co/dtGxWzq/1best.png"
+    ]
+  },
+  
+  {
+    "menu_id": 2,
+    "menu_name": "Whooper",
+    "location_id": 2,
+    "city_id": 1,
+    "address": "CONNAUGHT PLACE, No E8, Ground & Mezzanine Floor, Rajiv Chowk, Connaught Place, New Delhi, Delhi 110001",
+    "average_rating": 3.5,
+    "rating_text": "Good",
+    "cost": 550,
+    "contact_number": "1234535246",
+    "mealTypes": [
+      {
+        "mealtype_id": 1,
+        "mealtype_name": "Single Pack"
+      },
+      {
+        "mealtype_id": 2,
+        "mealtype_name": "Combo Pack"
+      },
+      {
+        "mealtype_id": 3,
+        "mealtype_name": "Family Pack"
+      },
+      {
+        "mealtype_id": 4,
+        "mealtype_name": "Beverages"
+      },
+      {
+        "mealtype_id": 5,
+        "mealtype_name": "Desserts"
+      }
+    ],
+    "foodtype": [
+      {
+        "foodtype_id": 1,
+        "foodtype_name": "Vegetarian"
+      },
+      {
+        "foodtype_id": 2,
+        "foodtype_name": "Non Vegetarian"
+      }
+    ],
+    "image_gallery": [
+      "https://i.ibb.co/TW4mk8v/1whop.png"
+    ]
+  },
+  {
+    "menu_id": 3,
+    "menu_name": "Family Combo",
+    "location_id": 3,
+    "city_id": 2,
+    "address": "Linking Rd Shop No FA05, FB01, SB01, Bandra West, Mumbai, Maharashtra 400050",
+    "average_rating": 5,
+    "rating_text": "Excellent",
+    "cost": 2500,
+    "contact_number": "4535246123",
+    "mealTypes": [
+      {
+        "mealtype_id": 1,
+        "mealtype_name": "Single Pack"
+      },
+      {
+        "mealtype_id": 2,
+        "mealtype_name": "Combo Pack"
+      },
+      {
+        "mealtype_id": 3,
+        "mealtype_name": "Family Pack"
+      },
+      {
+        "mealtype_id": 4,
+        "mealtype_name": "Beverages"
+      },
+      {
+        "mealtype_id": 5,
+        "mealtype_name": "Desserts"
+      }
+    ],
+    "foodtype": [
+      {
+        "foodtype_id": 1,
+        "foodtype_name": "Vegetarian"
+      },
+      {
+        "foodtype_id": 2,
+        "foodtype_name": "Non Vegetarian"
+      }
+    ],
+    "image_gallery": [
+      "https://i.ibb.co/hXR6xT3/1family.png"
+    ]
+  },
+  {
+    "menu_id": 4,
+    "menu_name": "Stunner",
+    "location_id": 4,
+    "city_id": 2,
+    "address": "Ground Floor, Western House, Andheri - Kurla Rd, Andheri East, Mumbai, Maharashtra 400069",
+    "average_rating": 4,
+    "rating_text": "Very Good",
+    "cost": 1500,
+    "contact_number": 3496508401,
+    "mealTypes": [
+      {
+        "mealtype_id": 1,
+        "mealtype_name": "Single Pack"
+      },
+      {
+        "mealtype_id": 2,
+        "mealtype_name": "Combo Pack"
+      },
+      {
+        "mealtype_id": 3,
+        "mealtype_name": "Family Pack"
+      },
+      {
+        "mealtype_id": 4,
+        "mealtype_name": "Beverages"
+      },
+      {
+        "mealtype_id": 5,
+        "mealtype_name": "Desserts"
+      }
+    ],
+    "foodtype": [
+      {
+        "foodtype_id": 1,
+        "foodtype_name": "Vegetarian"
+      },
+      {
+        "foodtype_id": 2,
+        "foodtype_name": "Non Vegetarian"
+      }
+    ],
+    "image_gallery": [
+      "https://i.ibb.co/mRkw216/1stun.png"
+    ]
+  },
+  {
+    "menu_id": 5,
+    "menu_name": "Top Picks",
+    "location_id": 5,
+    "city_id": 3,
+    "address": "Unit No 300, Food Counter D, The Great India Place Mall, Maharaja Agrasen Marg, Sector 38, Noida, Uttar Pradesh 201301",
+    "average_rating": 4.3,
+    "rating_text": "Very Good",
+    "cost": 500,
+    "contact_number": 8731537554,
+    "mealTypes": [
+      {
+        "mealtype_id": 1,
+        "mealtype_name": "Single Pack"
+      },
+      {
+        "mealtype_id": 2,
+        "mealtype_name": "Combo Pack"
+      },
+      {
+        "mealtype_id": 3,
+        "mealtype_name": "Family Pack"
+      },
+      {
+        "mealtype_id": 4,
+        "mealtype_name": "Beverages"
+      },
+      {
+        "mealtype_id": 5,
+        "mealtype_name": "Desserts"
+      }
+    ],
+    "foodtype": [
+      {
+        "foodtype_id": 1,
+        "foodtype_name": "Vegetarian"
+      },
+      {
+        "foodtype_id": 2,
+        "foodtype_name": "Non Vegetarian"
+      }
+    ],
+    "image_gallery": [
+      "https://i.ibb.co/SNBswqX/1top.png"
+    ]
+  },
+  {
+    "menu_id": 6,
+    "menu_name": "Tasty Burger",
+    "location_id": 6,
+    "city_id": 2,
+    "address": "Oberoi Mall, Food Court Level, Western Express Hwy, Mumbai, Maharashtra 400063",
+    "average_rating": 4.7,
+    "rating_text": "Excellent",
+    "cost": 650,
+    "contact_number": 1233766534,
+    "mealTypes": [
+      {
+        "mealtype_id": 1,
+        "mealtype_name": "Single Pack"
+      },
+      {
+        "mealtype_id": 2,
+        "mealtype_name": "Combo Pack"
+      },
+      {
+        "mealtype_id": 3,
+        "mealtype_name": "Family Pack"
+      },
+      {
+        "mealtype_id": 4,
+        "mealtype_name": "Beverages"
+      },
+      {
+        "mealtype_id": 5,
+        "mealtype_name": "Desserts"
+      }
+    ],
+    "foodtype": [
+      {
+        "foodtype_id": 1,
+        "foodtype_name": "Vegetarian"
+      },
+      {
+        "foodtype_id": 2,
+        "foodtype_name": "Non Vegetarian"
+      }
+    ],
+    "image_gallery": [
+      "https://i.ibb.co/jDmZNX0/1Tasty.png"
+    ]
+  },
+  {
+    "menu_id": 7,
+    "menu_name": "Classic Burger",
+    "location_id": 7,
+    "city_id": 2,
+    "address": "Oberoi Mall, Food Court Level, Western Express Hwy, Mumbai, Maharashtra 400063",
+    "average_rating": 3.5,
+    "rating_text": "Good",
+    "cost": 600,
+    "contact_number": 7543210986,
+    "mealTypes": [
+      {
+        "mealtype_id": 1,
+        "mealtype_name": "Single Pack"
+      },
+      {
+        "mealtype_id": 2,
+        "mealtype_name": "Combo Pack"
+      },
+      {
+        "mealtype_id": 3,
+        "mealtype_name": "Family Pack"
+      },
+      {
+        "mealtype_id": 4,
+        "mealtype_name": "Beverages"
+      },
+      {
+        "mealtype_id": 5,
+        "mealtype_name": "Desserts"
+      }
+    ],
+    "foodtype": [
+      {
+        "foodtype_id": 1,
+        "foodtype_name": "Vegetarian"
+      },
+      {
+        "foodtype_id": 2,
+        "foodtype_name": "Non Vegetarian"
+      }
+    ],
+    "image_gallery": [
+      "https://i.ibb.co/9bmqkXx/1burger.png"
+    ]
+  },
+  {
+    "menu_id": 8,
+    "menu_name": "Breakfast",
+    "location_id": 8,
+    "city_id": 5,
+    "address": "Alpha One Mall Food Court, 3rd Flr, T.P. Scheme-01 Lake, near Vastrapur, Vastrapur, Gujarat 380054",
+    "average_rating": 3,
+    "rating_text": "Average",
+    "cost": 400,
+    "contact_number": 9876543210,
+    "mealTypes": [
+      {
+        "mealtype_id": 1,
+        "mealtype_name": "Single Pack"
+      },
+      {
+        "mealtype_id": 2,
+        "mealtype_name": "Combo Pack"
+      },
+      {
+        "mealtype_id": 3,
+        "mealtype_name": "Family Pack"
+      },
+      {
+        "mealtype_id": 4,
+        "mealtype_name": "Beverages"
+      },
+      {
+        "mealtype_id": 5,
+        "mealtype_name": "Desserts"
+      }
+    ],
+    "foodtype": [
+      {
+        "foodtype_id": 1,
+        "foodtype_name": "Vegetarian"
+      },
+      {
+        "foodtype_id": 2,
+        "foodtype_name": "Non Vegetarian"
+      }
+    ],
+    "image_gallery": [
+      "https://i.ibb.co/cQX4k1s/1fast.png"
+    ]
+  },
+  {
+    "menu_id": 9,
+    "menu_name": "Fries",
+    "location_id": 9,
+    "city_id": 5,
+    "address": "Unit G 1 & F 1, Ground & 1st Floor, NH 48, Vadodara, Gujarat 390019",
+    "average_rating": 5,
+    "rating_text": "Excellent",
+    "cost": 150,
+    "contact_number": 7654321098,
+    "mealTypes": [
+      {
+        "mealtype_id": 1,
+        "mealtype_name": "Single Pack"
+      },
+      {
+        "mealtype_id": 2,
+        "mealtype_name": "Combo Pack"
+      },
+      {
+        "mealtype_id": 3,
+        "mealtype_name": "Family Pack"
+      },
+      {
+        "mealtype_id": 4,
+        "mealtype_name": "Beverages"
+      },
+      {
+        "mealtype_id": 5,
+        "mealtype_name": "Desserts"
+      }
+    ],
+    "foodtype": [
+      {
+        "foodtype_id": 1,
+        "foodtype_name": "Vegetarian"
+      },
+      {
+        "foodtype_id": 2,
+        "foodtype_name": "Non Vegetarian"
+      }
+    ],
+    "image_gallery": [
+      "https://i.ibb.co/VYpm2Lk/1fries.png"
+    ]
+  },
+  {
+    "menu_id": 10,
+    "menu_name": "Bevrages",
+    "location_id": 10,
+    "city_id": 2,
+    "address": "Western House, Andheri - Kurla Rd, Andheri East, Mumbai, Maharashtra 400069",
+    "average_rating": 4.5,
+    "rating_text": "Very Good",
+    "cost": 100,
+    "contact_number": 6754321098,
+    "mealTypes": [
+      {
+        "mealtype_id": 1,
+        "mealtype_name": "Single Pack"
+      },
+      {
+        "mealtype_id": 2,
+        "mealtype_name": "Combo Pack"
+      },
+      {
+        "mealtype_id": 3,
+        "mealtype_name": "Family Pack"
+      },
+      {
+        "mealtype_id": 4,
+        "mealtype_name": "Beverages"
+      },
+      {
+        "mealtype_id": 5,
+        "mealtype_name": "Desserts"
+      }
+    ],
+    "foodtype": [
+      {
+        "foodtype_id": 1,
+        "foodtype_name": "Vegetarian"
+      },
+      {
+        "foodtype_id": 2,
+        "foodtype_name": "Non Vegetarian"
+      }
+    ],
+    "image_gallery": [
+      "https://i.ibb.co/LYRPmqQ/1-Beverage.png"
+    ]
+  },
+  {
+    "menu_id": 11,
+    "menu_name": "Cafe",
+    "location_id": 11,
+    "city_id": 2,
+    "address": " Food Court Level, Infiniti Mall, Unit SF 205, 2nd Flr, New Link Rd, Mumbai, Maharashtra 400053",
+    "average_rating": 3.4,
+    "rating_text": "Average",
+    "cost": 150,
+    "contact_number": 8675432109,
+    "mealTypes": [
+      {
+        "mealtype_id": 1,
+        "mealtype_name": "Single Pack"
+      },
+      {
+        "mealtype_id": 2,
+        "mealtype_name": "Combo Pack"
+      },
+      {
+        "mealtype_id": 3,
+        "mealtype_name": "Family Pack"
+      },
+      {
+        "mealtype_id": 4,
+        "mealtype_name": "Beverages"
+      },
+      {
+        "mealtype_id": 5,
+        "mealtype_name": "Desserts"
+      }
+    ],
+    "foodtype": [
+      {
+        "foodtype_id": 1,
+        "foodtype_name": "Vegetarian"
+      },
+      {
+        "foodtype_id": 2,
+        "foodtype_name": "Non Vegetarian"
+      }
+    ],
+    "image_gallery": [
+      "https://i.ibb.co/LS7M3RH/1cafe.png"
+    ]
+  },
+  {
+    "menu_id": 12,
+    "menu_name": "Wings",
+    "location_id": 12,
+    "city_id": 5,
+    "address": "Nr. Shell Petrol Pump 901 Venus Atlantis, Prahlad Nagar Rd, Ahmedabad, Gujarat 380015",
+    "average_rating": 3.5,
+    "rating_text": "Good",
+    "cost": 300,
+    "contact_number": 6754321098,
+    "mealTypes": [
+      {
+        "mealtype_id": 1,
+        "mealtype_name": "Single Pack"
+      },
+      {
+        "mealtype_id": 2,
+        "mealtype_name": "Combo Pack"
+      },
+      {
+        "mealtype_id": 3,
+        "mealtype_name": "Family Pack"
+      },
+      {
+        "mealtype_id": 4,
+        "mealtype_name": "Beverages"
+      },
+      {
+        "mealtype_id": 5,
+        "mealtype_name": "Desserts"
+      }
+    ],
+    "foodtype": [
+      {
+        "foodtype_id": 1,
+        "foodtype_name": "Vegetarian"
+      },
+      {
+        "foodtype_id": 2,
+        "foodtype_name": "Non Vegetarian"
+      }
+    ],
+    "image_gallery": [
+      "https://i.ibb.co/Pwcgn6d/1wings.png"
+    ]
+  },
+  {
+    "menu_id": 13,
+    "menu_name": "Dessert",
+    "location_id": 13,
+    "city_id": 7,
+    "address": "Amanora Mall, EB FF6A & 6B, 1st Floor, Amanora Town Centre, Pune, Maharashtra 411028",
+    "average_rating": 5,
+    "rating_text": "Excellent",
+    "cost": 150,
+    "contact_number": 9543210867,
+    "mealTypes": [
+      {
+        "mealtype_id": 1,
+        "mealtype_name": "Single Pack"
+      },
+      {
+        "mealtype_id": 2,
+        "mealtype_name": "Combo Pack"
+      },
+      {
+        "mealtype_id": 3,
+        "mealtype_name": "Family Pack"
+      },
+      {
+        "mealtype_id": 4,
+        "mealtype_name": "Beverages"
+      },
+      {
+        "mealtype_id": 5,
+        "mealtype_name": "Desserts"
+      }
+    ],
+    "foodtype": [
+      {
+        "foodtype_id": 1,
+        "foodtype_name": "Vegetarian"
+      },
+      {
+        "foodtype_id": 2,
+        "foodtype_name": "Non Vegetarian"
+      }
+    ],
+    "image_gallery": [
+      "https://i.ibb.co/ck0Z2LP/1dessert.png"
+    ]
+  },
+  {
+    "menu_id": 14,
+    "menu_name": "Brown Volcano",
+    "location_id": 14,
+    "city_id": 1,
+    "address": " Ajmal Khan Rd, Block 13, WEA, Karol Bagh, New Delhi, Delhi 110005",
+    "average_rating": 4.5,
+    "rating_text": "Very Good",
+    "cost": 500,
+    "contact_number": 9867543210,
+    "mealTypes": [
+      {
+        "mealtype_id": 1,
+        "mealtype_name": "Single Pack"
+      },
+      {
+        "mealtype_id": 2,
+        "mealtype_name": "Combo Pack"
+      },
+      {
+        "mealtype_id": 3,
+        "mealtype_name": "Family Pack"
+      },
+      {
+        "mealtype_id": 4,
+        "mealtype_name": "Beverages"
+      },
+      {
+        "mealtype_id": 5,
+        "mealtype_name": "Desserts"
+      }
+    ],
+    "foodtype": [
+      {
+        "foodtype_id": 1,
+        "foodtype_name": "Vegetarian"
+      },
+      {
+        "foodtype_id": 2,
+        "foodtype_name": "Non Vegetarian"
+      }
+    ],
+    "image_gallery": [
+      "https://i.ibb.co/SwCN3H9/1brow.png"
+    ]
+  },
+  {
+    "menu_id": 15,
+    "menu_name": "Hashbrown",
+    "location_id": 15,
+    "city_id": 1,
+    "address": "CONNAUGHT PLACE, No E8, Ground & Mezzanine Floor, Rajiv Chowk, Connaught Place, New Delhi, Delhi 110001",
+    "average_rating": 4.2,
+    "rating_text": "Very Good",
+    "cost": 200,
+    "contact_number": 9843210675,
+    "mealTypes": [
+      {
+        "mealtype_id": 1,
+        "mealtype_name": "Single Pack"
+      },
+      {
+        "mealtype_id": 2,
+        "mealtype_name": "Combo Pack"
+      },
+      {
+        "mealtype_id": 3,
+        "mealtype_name": "Family Pack"
+      },
+      {
+        "mealtype_id": 4,
+        "mealtype_name": "Beverages"
+      },
+      {
+        "mealtype_id": 5,
+        "mealtype_name": "Desserts"
+      }
+    ],
+    "foodtype": [
+      {
+        "foodtype_id": 1,
+        "foodtype_name": "Vegetarian"
+      },
+      {
+        "foodtype_id": 2,
+        "foodtype_name": "Non Vegetarian"
+      }
+    ],
+    "image_gallery": [
+      "https://i.ibb.co/dBqSz95/1hashbrown.jpg"
+    ]
+  },
+  {
+    "menu_id": 16,
+    "menu_name": "Special Burger",
+    "location_id": 16,
+    "city_id": 2,
+    "address": "Linking Rd Shop No FA05, FB01, SB01, Bandra West, Mumbai, Maharashtra 400050",
+    "average_rating": 3,
+    "rating_text": " Average",
+    "cost": 700,
+    "contact_number": 9832106754,
+    "mealTypes": [
+      {
+        "mealtype_id": 1,
+        "mealtype_name": "Single Pack"
+      },
+      {
+        "mealtype_id": 2,
+        "mealtype_name": "Combo Pack"
+      },
+      {
+        "mealtype_id": 3,
+        "mealtype_name": "Family Pack"
+      },
+      {
+        "mealtype_id": 4,
+        "mealtype_name": "Beverages"
+      },
+      {
+        "mealtype_id": 5,
+        "mealtype_name": "Desserts"
+      }
+    ],
+    "foodtype": [
+      {
+        "foodtype_id": 1,
+        "foodtype_name": "Vegetarian"
+      },
+      {
+        "foodtype_id": 2,
+        "foodtype_name": "Non Vegetarian"
+      }
+    ],
+    "image_gallery": [
+      "https://i.ibb.co/5Tb8D6b/1special.png"
+    ]
+  },
+  {
+    "menu_id": 17,
+    "menu_name": "Lite Cheese Whooper",
+    "location_id": 17,
+    "city_id": 2,
+    "address": "Ground Floor, Western House, Andheri - Kurla Rd, Andheri East, Mumbai, Maharashtra 400069",
+    "average_rating": 3.2,
+    "rating_text": "Average",
+    "cost": 600,
+    "contact_number": 9832167540,
+    "mealTypes": [
+      {
+        "mealtype_id": 1,
+        "mealtype_name": "Single Pack"
+      },
+      {
+        "mealtype_id": 2,
+        "mealtype_name": "Combo Pack"
+      },
+      {
+        "mealtype_id": 3,
+        "mealtype_name": "Family Pack"
+      },
+      {
+        "mealtype_id": 4,
+        "mealtype_name": "Beverages"
+      },
+      {
+        "mealtype_id": 5,
+        "mealtype_name": "Desserts"
+      }
+    ],
+    "foodtype": [
+      {
+        "foodtype_id": 1,
+        "foodtype_name": "Vegetarian"
+      },
+      {
+        "foodtype_id": 2,
+        "foodtype_name": "Non Vegetarian"
+      }
+    ],
+    "image_gallery": [
+      "https://i.ibb.co/BP0241Z/1lite.jpg"
+    ]
+  },
+  {
+    "menu_id": 18,
+    "menu_name": "Cheesy Burger",
+    "location_id": 18,
+    "city_id": 3,
+    "address": "Unit No 300, Food Counter D, The Great India Place Mall, Maharaja Agrasen Marg, Sector 38, Noida, Uttar Pradesh 201301",
+    "average_rating": 3.4,
+    "rating_text": "Average",
+    "cost": 650,
+    "contact_number": 9432108675,
+    "mealTypes": [
+      {
+        "mealtype_id": 1,
+        "mealtype_name": "Single Pack"
+      },
+      {
+        "mealtype_id": 2,
+        "mealtype_name": "Combo Pack"
+      },
+      {
+        "mealtype_id": 3,
+        "mealtype_name": "Family Pack"
+      },
+      {
+        "mealtype_id": 4,
+        "mealtype_name": "Beverages"
+      },
+      {
+        "mealtype_id": 5,
+        "mealtype_name": "Desserts"
+      }
+    ],
+    "foodtype": [
+      {
+        "foodtype_id": 1,
+        "foodtype_name": "Vegetarian"
+      },
+      {
+        "foodtype_id": 2,
+        "foodtype_name": "Non Vegetarian"
+      }
+    ],
+    "image_gallery": [
+      "https://i.ibb.co/2vZ1X16/1cheesy.jpg"
+    ]
+  },
+  {
+    "menu_id": 19,
+    "menu_name": "Volcano",
+    "location_id": 19,
+    "city_id": 2,
+    "address": "Oberoi Mall, Food Court Level, Western Express Hwy, Mumbai, Maharashtra 400063",
+    "average_rating": 4.5,
+    "rating_text": "Very Good",
+    "cost": 350,
+    "contact_number": 9843210675,
+    "mealTypes": [
+      {
+        "mealtype_id": 1,
+        "mealtype_name": "Single Pack"
+      },
+      {
+        "mealtype_id": 2,
+        "mealtype_name": "Combo Pack"
+      },
+      {
+        "mealtype_id": 3,
+        "mealtype_name": "Family Pack"
+      },
+      {
+        "mealtype_id": 4,
+        "mealtype_name": "Beverages"
+      },
+      {
+        "mealtype_id": 5,
+        "mealtype_name": "Desserts"
+      }
+    ],
+    "foodtype": [
+      {
+        "foodtype_id": 1,
+        "foodtype_name": "Vegetarian"
+      },
+      {
+        "foodtype_id": 2,
+        "foodtype_name": "Non Vegetarian"
+      }
+    ],
+    "image_gallery": [
+      "https://i.ibb.co/RSXm8Dh/1volcano.jpg"
+    ]
+  },
+  {
+    "menu_id": 20,
+    "menu_name": "Tiki Twist",
+    "location_id": 20,
+    "city_id": 2,
+    "address": "Oberoi Mall, Food Court Level, Western Express Hwy, Mumbai, Maharashtra 400063",
+    "average_rating": 4.5,
+    "rating_text": "Very Good",
+    "cost": 450,
+    "contact_number": 9210867543,
+    "mealTypes": [
+      {
+        "mealtype_id": 1,
+        "mealtype_name": "Single Pack"
+      },
+      {
+        "mealtype_id": 2,
+        "mealtype_name": "Combo Pack"
+      },
+      {
+        "mealtype_id": 3,
+        "mealtype_name": "Family Pack"
+      },
+      {
+        "mealtype_id": 4,
+        "mealtype_name": "Beverages"
+      },
+      {
+        "mealtype_id": 5,
+        "mealtype_name": "Desserts"
+      }
+    ],
+    "foodtype": [
+      {
+        "foodtype_id": 1,
+        "foodtype_name": "Vegetarian"
+      },
+      {
+        "foodtype_id": 2,
+        "foodtype_name": "Non Vegetarian"
+      }
+    ],
+    "image_gallery": [
+      "https://i.ibb.co/wLdzVJf/1tiki.jpg"
+    ]
+  },
+  {
+    "menu_id": 21,
+    "menu_name": "Crunchy Valcano",
+    "location_id": 21,
+    "city_id": 5,
+    "address": "Alpha One Mall Food Court, 3rd Flr, T.P. Scheme-01 Lake, near Vastrapur, Vastrapur, Gujarat 380054",
+    "average_rating": 4.5,
+    "rating_text": "Very Good",
+    "cost": 300,
+    "contact_number": 9754321086,
+    "mealTypes": [
+      {
+        "mealtype_id": 1,
+        "mealtype_name": "Single Pack"
+      },
+      {
+        "mealtype_id": 2,
+        "mealtype_name": "Combo Pack"
+      },
+      {
+        "mealtype_id": 3,
+        "mealtype_name": "Family Pack"
+      },
+      {
+        "mealtype_id": 4,
+        "mealtype_name": "Beverages"
+      },
+      {
+        "mealtype_id": 5,
+        "mealtype_name": "Desserts"
+      }
+    ],
+    "foodtype": [
+      {
+        "foodtype_id": 1,
+        "foodtype_name": "Vegetarian"
+      },
+      {
+        "foodtype_id": 2,
+        "foodtype_name": "Non Vegetarian"
+      }
+    ],
+    "image_gallery": [
+      "https://i.ibb.co/JjzZ2dB/1crunchy.jpg"
+    ]
+  },
+])

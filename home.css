@@ -1,10 +1,10 @@
 body{
     margin:auto;
-    background-color: rgb(228, 219, 199);
+    background-color: rgb(206, 179, 143);;
     color: black;
 }
 .mydark{
-    background-color:rgb(206, 179, 143);
+    background-color:rgb(231, 198, 162);
     color:black;
 }
 
@@ -73,6 +73,7 @@ img{
     /* background-size: cover; */
     background-size: 100% 200px;
     background-repeat: no-repeat ;
+   
 }
 
 #logo{
@@ -118,7 +119,7 @@ img{
     }
     100%{
         transform:rotate(0deg);
-        margin-left: 94%;
+        margin-left: 92%;
         margin-top: 1%;
     }
 
@@ -179,14 +180,14 @@ select{
 .weather-container {
     height: 192px;
     width: 120px;
-    /* background-color:rgb(241, 219, 158); */
+    /* background-color:rgb(224, 230, 154); */
     text-align: center;
     /* padding-top: 12px; */
     /* border-radius: 16px; */
     /* border: 2px solid rgb(14, 43, 1); */
     margin-left: 88%;
     position: absolute;
-    margin-top: 14.5%;
+    margin-top: 13.8%;
  
 } 
 
@@ -203,7 +204,7 @@ select{
 #quickheading{
     font-size: 12px;
     display: block;
-    color: gray;
+    color: black;
     line-height: 2;
     margin-left: 3%;
 }
@@ -277,7 +278,7 @@ select{
 #favouritesheading{
     font-size: 12px;
     display: block;
-    color: gray;
+    color: black;
     line-height: 2;
     margin-left: 3%;
 }
