@@ -1,0 +1,204 @@
+db.favmenu.insert (
+[
+    {
+      "menu_id": 16,
+      "menu_name": "Special Burger",
+      "location_id": 16,
+      "city_id": 2,
+      "address": "Linking Rd Shop No FA05, FB01, SB01, Bandra West, Mumbai, Maharashtra 400050",
+      "average_rating": 3,
+      "rating_text": " Average",
+      "cost": 700,
+      "contact_number": 9832106754,
+      "mealTypes": [
+        {
+          "mealtype_id": 1,
+          "mealtype_name": "Single Pack"
+        },
+        {
+          "mealtype_id": 4,
+          "mealtype_name": "Beverages"
+        },
+        {
+          "mealtype_id": 5,
+          "mealtype_name": "Desserts"
+        }
+      ],
+      "foodtype": [
+        {
+          "foodtype_id": 1,
+          "foodtype_name": "Vegetarian"
+        },
+        {
+          "foodtype_id": 2,
+          "foodtype_name": "Non Vegetarian"
+        }
+      ],
+      "image_gallery": [
+        "https://i.ibb.co/5Tb8D6b/1special.png"
+      ]
+    },
+    {
+      "menu_id": 17,
+      "menu_name": "Lite Cheese Whooper",
+      "location_id": 17,
+      "city_id": 2,
+      "address": "Ground Floor, Western House, Andheri - Kurla Rd, Andheri East, Mumbai, Maharashtra 400069",
+      "average_rating": 3.2,
+      "rating_text": "Average",
+      "cost": 600,
+      "contact_number": 9832167540,
+      "mealTypes": [
+        {
+          "mealtype_id": 1,
+          "mealtype_name": "Single Pack"
+        },
+        {
+          "mealtype_id": 4,
+          "mealtype_name": "Beverages"
+        },
+        {
+          "mealtype_id": 5,
+          "mealtype_name": "Desserts"
+        }
+      ],
+      "foodtype": [
+        {
+          "foodtype_id": 1,
+          "foodtype_name": "Vegetarian"
+        },
+        {
+          "foodtype_id": 2,
+          "foodtype_name": "Non Vegetarian"
+        }
+      ],
+      "image_gallery": [
+        "https://i.ibb.co/BP0241Z/1lite.jpg"
+      ]
+    },
+    {
+      "menu_id": 18,
+      "menu_name": "Cheesy Burger",
+      "location_id": 18,
+      "city_id": 3,
+      "address": "Unit No 300, Food Counter D, The Great India Place Mall, Maharaja Agrasen Marg, Sector 38, Noida, Uttar Pradesh 201301",
+      "average_rating": 3.4,
+      "rating_text": "Average",
+      "cost": 650,
+      "contact_number": 9432108675,
+      "mealTypes": [
+        {
+          "mealtype_id": 1,
+          "mealtype_name": "Single Pack"
+        },
+        {
+          "mealtype_id": 4,
+          "mealtype_name": "Beverages"
+        },
+
+      ],
+      "foodtype": [
+        {
+          "foodtype_id": 1,
+          "foodtype_name": "Vegetarian"
+        },
+        {
+          "foodtype_id": 2,
+          "foodtype_name": "Non Vegetarian"
+        }
+      ],
+      "image_gallery": [
+        "https://i.ibb.co/2vZ1X16/1cheesy.jpg"
+      ]
+    },
+    {
+      "menu_id": 19,
+      "menu_name": "Volcano",
+      "location_id": 19,
+      "city_id": 2,
+      "address": "Oberoi Mall, Food Court Level, Western Express Hwy, Mumbai, Maharashtra 400063",
+      "average_rating": 4.5,
+      "rating_text": "Very Good",
+      "cost": 350,
+      "contact_number": 9843210675,
+      "mealTypes": [
+        {
+          "mealtype_id": 1,
+          "mealtype_name": "Single Pack"
+        }
+      ],
+      "foodtype": [
+        {
+          "foodtype_id": 1,
+          "foodtype_name": "Vegetarian"
+        },
+      ],
+      "image_gallery": [
+        "https://i.ibb.co/RSXm8Dh/1volcano.jpg"
+      ]
+    },
+    {
+      "menu_id": 20,
+      "menu_name": "Tiki Twist",
+      "location_id": 20,
+      "city_id": 2,
+      "address": "Oberoi Mall, Food Court Level, Western Express Hwy, Mumbai, Maharashtra 400063",
+      "average_rating": 4.5,
+      "rating_text": "Very Good",
+      "cost": 450,
+      "contact_number": 9210867543,
+      "mealTypes": [
+        {
+          "mealtype_id": 1,
+          "mealtype_name": "Single Pack"
+        },
+        {
+          "mealtype_id": 4,
+          "mealtype_name": "Beverages"
+        }
+      ],
+      "foodtype": [
+        {
+          "foodtype_id": 2,
+          "foodtype_name": "Non Vegetarian"
+        }
+      ],
+      "image_gallery": [
+        "https://i.ibb.co/wLdzVJf/1tiki.jpg"
+      ]
+    },
+    {
+      "menu_id": 21,
+      "menu_name": "Crunchy Valcano",
+      "location_id": 21,
+      "city_id": 5,
+      "address": "Alpha One Mall Food Court, 3rd Flr, T.P. Scheme-01 Lake, near Vastrapur, Vastrapur, Gujarat 380054",
+      "average_rating": 4.5,
+      "rating_text": "Very Good",
+      "cost": 300,
+      "contact_number": 9754321086,
+      "mealTypes": [
+        {
+          "mealtype_id": 1,
+          "mealtype_name": "Single Pack"
+        },
+        {
+          "mealtype_id": 4,
+          "mealtype_name": "Beverages"
+        }
+      ],
+      "foodtype": [
+        {
+          "foodtype_id": 1,
+          "foodtype_name": "Vegetarian"
+        },
+        {
+          "foodtype_id": 2,
+          "foodtype_name": "Non Vegetarian"
+        }
+      ],
+      "image_gallery": [
+        "https://i.ibb.co/JjzZ2dB/1crunchy.jpg"
+      ]
+    },
+  ])

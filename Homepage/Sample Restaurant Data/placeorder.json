@@ -1,0 +1,101 @@
+db.placeorder.insert(
+[
+
+    {
+            "_id" : "62514d42f5aec503b2e0f2a9",
+            "name" : "Aakash",
+            "email" : "aakash@gmail.com",
+            "address" : "Hno 23,Sector 1",
+            "phone" : 768768686,
+            "cost" : 787,
+            "menuItem" : [
+                    3,
+                    5,
+                    7
+            ],
+            "status" : "on the way",
+            "bank_name" : "ICICI",
+            "date" : "07/01/2023",
+            "order" : 6
+    }
+    {
+            "_id" : 7,
+            "name" : "Veer",
+            "email" : "Veer@gmail.com",
+            "address" : "B-62/6,Ahmedabad",
+            "phone" : 9010507010,
+            "cost" : 2500,
+            "menuItem" : [
+                    20,
+                    16,
+                    9
+            ],
+            "status" : "Ready",
+            "bank_name" : "SBI",
+            "date" : "07/01/2023",
+            "order" : 3
+    }
+    {
+            "_id" : 13,
+            "name" : "Kush",
+            "email" : "kush@gmail.com",
+            "address" : "B-62,Ahmedabad",
+            "phone" : 9050109060,
+            "cost" : 5000,
+            "menuItem" : [
+                    21,
+                    11,
+                    1
+            ],
+            "status" : "Delivered",
+            "bank_name" : "City",
+            "date" : "07/01/2023",
+            "order" : 1
+    }
+    {
+            "_id" : ObjectId("63b99f9b9ebad759af8e7e1a"),
+            "order" : 2,
+            "name" : "Alia",
+            "email" : "alia@gmail.com",
+            "address" : "Hno 2, Mumbai",
+            "phone" : 769768686,
+            "cost" : 3000,
+            "menuItem" : [
+                    8,
+                    6,
+                    19
+            ]
+    }
+    {
+            "_id" : ObjectId("63b9a0d00e868b9871a5153b"),
+            "order" : 5,
+            "name" : "Jenil",
+            "email" : "Jenil@gmail.com",
+            "address" : "B-62/6,Gandhinagar",
+            "phone" : 9010506010,
+            "cost" : 3500,
+            "menuItem" : [
+                    2,
+                    1,
+                    12
+            ]
+    }
+    {
+            "_id" : ObjectId("63b9a12d0e868b9871a5153c"),
+            "order" : 4,
+            "name" : "Dhrunil",
+            "email" : "Dhrunil@gmail.com",
+            "address" : "Sector-25,Delhi",
+            "phone" : 9010509616,
+            "cost" : 4500,
+            "menuItem" : [
+                    20,
+                    14,
+                    15
+            ],
+            "bank_name" : "Axis",
+            "date" : "07/01/2023",
+            "status" : "pending"
+    }
+]
+)

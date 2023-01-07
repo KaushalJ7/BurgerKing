@@ -1,0 +1,11 @@
+db.test.insert({name:'Amit',city:'Amsterdam'})
+db.test.insert({_id:1,name:'Latika',city:'Paris',subject:'UI'})
+db.test.insert({name:'Karan',city:'Pune'})
+
+// find with condition
+db.collection.find({state_id:1})
+db.ourmenu.find({city_id:1}).pretty()
+db.ourmenu.find({rating_text: "Excellent"}).pretty()
+db.ourmenu.find({city_id:1,rating_text: "Good"}).pretty()
+
+db.ourmenu.find({"mealtype.mealtype_id":1})

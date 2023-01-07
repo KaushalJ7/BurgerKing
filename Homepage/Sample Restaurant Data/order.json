@@ -1,0 +1,57 @@
+db.order.insert([
+    {
+        
+        "name" : "Shalu",
+        "email" : "shalu@gmail.com",
+        "address" : "Hno 3,Delhi",
+        "phone" : 768768686,
+        "cost" : 1000,
+        "menuItem" : [
+                3,
+                5,
+                7
+        ],
+        "status" : "Pending"
+    }
+    {
+        
+        "name" : "Bhavna",
+        "email" : "bhavna@gmail.com",
+        "address" : "Hno 20,Sector 11, Mumbai",
+        "phone" : 98768686,
+        "cost" : 1500,
+        "menuItem" : [
+                6,
+                14,
+                13
+        ],
+        "status" : "Pending"
+    }
+    {
+        
+        "name" : "Anchal",
+        "email" : "anchal@gmail.com",
+        "address" : "Hno 23,Sector 1, Bangalore",
+        "phone" : 918768686,
+        "cost" : 2000,
+        "menuItem" : [
+                12,
+                15,
+                11
+        ],
+        "status" : "Pending"
+    }
+    {
+        "name" : "Veer",
+        "email" : "Veer@gmail.com",
+        "address" : "B-62/6, Ahmedabad",
+        "phone" : 97676733,
+        "cost" : 2500,
+        "menuItem" : [
+                17,
+                19,
+                21
+        ],
+        "status" : "Pending"
+    }
+])

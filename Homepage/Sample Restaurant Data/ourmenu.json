@@ -1,4 +1,4 @@
-db.zomato.insert ([
+db.ourmenu.insert([
   {
     "menu_id": 1,
     "menu_name": "Best Combo",
@@ -13,24 +13,8 @@ db.zomato.insert ([
     "contact_number": 9867543210,
     "mealTypes": [
       {
-        "mealtype_id": 1,
-        "mealtype_name": "Single Pack"
-      },
-      {
         "mealtype_id": 2,
         "mealtype_name": "Combo Pack"
-      },
-      {
-        "mealtype_id": 3,
-        "mealtype_name": "Family Pack"
-      },
-      {
-        "mealtype_id": 4,
-        "mealtype_name": "Beverages"
-      },
-      {
-        "mealtype_id": 5,
-        "mealtype_name": "Desserts"
       }
     ],
     "foodtype": [
@@ -47,7 +31,6 @@ db.zomato.insert ([
       "https://i.ibb.co/dtGxWzq/1best.png"
     ]
   },
-  
   {
     "menu_id": 2,
     "menu_name": "Whooper",
@@ -62,22 +45,6 @@ db.zomato.insert ([
       {
         "mealtype_id": 1,
         "mealtype_name": "Single Pack"
-      },
-      {
-        "mealtype_id": 2,
-        "mealtype_name": "Combo Pack"
-      },
-      {
-        "mealtype_id": 3,
-        "mealtype_name": "Family Pack"
-      },
-      {
-        "mealtype_id": 4,
-        "mealtype_name": "Beverages"
-      },
-      {
-        "mealtype_id": 5,
-        "mealtype_name": "Desserts"
       }
     ],
     "foodtype": [
@@ -106,34 +73,14 @@ db.zomato.insert ([
     "contact_number": "4535246123",
     "mealTypes": [
       {
-        "mealtype_id": 1,
-        "mealtype_name": "Single Pack"
-      },
-      {
-        "mealtype_id": 2,
-        "mealtype_name": "Combo Pack"
-      },
-      {
         "mealtype_id": 3,
         "mealtype_name": "Family Pack"
-      },
-      {
-        "mealtype_id": 4,
-        "mealtype_name": "Beverages"
-      },
-      {
-        "mealtype_id": 5,
-        "mealtype_name": "Desserts"
       }
     ],
     "foodtype": [
       {
         "foodtype_id": 1,
         "foodtype_name": "Vegetarian"
-      },
-      {
-        "foodtype_id": 2,
-        "foodtype_name": "Non Vegetarian"
       }
     ],
     "image_gallery": [
@@ -158,18 +105,6 @@ db.zomato.insert ([
       {
         "mealtype_id": 2,
         "mealtype_name": "Combo Pack"
-      },
-      {
-        "mealtype_id": 3,
-        "mealtype_name": "Family Pack"
-      },
-      {
-        "mealtype_id": 4,
-        "mealtype_name": "Beverages"
-      },
-      {
-        "mealtype_id": 5,
-        "mealtype_name": "Desserts"
       }
     ],
     "foodtype": [
@@ -200,14 +135,6 @@ db.zomato.insert ([
       {
         "mealtype_id": 1,
         "mealtype_name": "Single Pack"
-      },
-      {
-        "mealtype_id": 2,
-        "mealtype_name": "Combo Pack"
-      },
-      {
-        "mealtype_id": 3,
-        "mealtype_name": "Family Pack"
       },
       {
         "mealtype_id": 4,
@@ -248,14 +175,6 @@ db.zomato.insert ([
         "mealtype_name": "Single Pack"
       },
       {
-        "mealtype_id": 2,
-        "mealtype_name": "Combo Pack"
-      },
-      {
-        "mealtype_id": 3,
-        "mealtype_name": "Family Pack"
-      },
-      {
         "mealtype_id": 4,
         "mealtype_name": "Beverages"
       },
@@ -292,14 +211,6 @@ db.zomato.insert ([
       {
         "mealtype_id": 1,
         "mealtype_name": "Single Pack"
-      },
-      {
-        "mealtype_id": 2,
-        "mealtype_name": "Combo Pack"
-      },
-      {
-        "mealtype_id": 3,
-        "mealtype_name": "Family Pack"
       },
       {
         "mealtype_id": 4,
@@ -344,16 +255,8 @@ db.zomato.insert ([
         "mealtype_name": "Combo Pack"
       },
       {
-        "mealtype_id": 3,
-        "mealtype_name": "Family Pack"
-      },
-      {
         "mealtype_id": 4,
         "mealtype_name": "Beverages"
-      },
-      {
-        "mealtype_id": 5,
-        "mealtype_name": "Desserts"
       }
     ],
     "foodtype": [
@@ -390,26 +293,14 @@ db.zomato.insert ([
         "mealtype_name": "Combo Pack"
       },
       {
-        "mealtype_id": 3,
-        "mealtype_name": "Family Pack"
-      },
-      {
         "mealtype_id": 4,
         "mealtype_name": "Beverages"
-      },
-      {
-        "mealtype_id": 5,
-        "mealtype_name": "Desserts"
       }
     ],
     "foodtype": [
       {
         "foodtype_id": 1,
         "foodtype_name": "Vegetarian"
-      },
-      {
-        "foodtype_id": 2,
-        "foodtype_name": "Non Vegetarian"
       }
     ],
     "image_gallery": [
@@ -452,10 +343,6 @@ db.zomato.insert ([
       {
         "foodtype_id": 1,
         "foodtype_name": "Vegetarian"
-      },
-      {
-        "foodtype_id": 2,
-        "foodtype_name": "Non Vegetarian"
       }
     ],
     "image_gallery": [
@@ -478,30 +365,14 @@ db.zomato.insert ([
         "mealtype_name": "Single Pack"
       },
       {
-        "mealtype_id": 2,
-        "mealtype_name": "Combo Pack"
-      },
-      {
-        "mealtype_id": 3,
-        "mealtype_name": "Family Pack"
-      },
-      {
         "mealtype_id": 4,
         "mealtype_name": "Beverages"
-      },
-      {
-        "mealtype_id": 5,
-        "mealtype_name": "Desserts"
       }
     ],
     "foodtype": [
       {
         "foodtype_id": 1,
         "foodtype_name": "Vegetarian"
-      },
-      {
-        "foodtype_id": 2,
-        "foodtype_name": "Non Vegetarian"
       }
     ],
     "image_gallery": [
@@ -524,27 +395,11 @@ db.zomato.insert ([
         "mealtype_name": "Single Pack"
       },
       {
-        "mealtype_id": 2,
-        "mealtype_name": "Combo Pack"
-      },
-      {
-        "mealtype_id": 3,
-        "mealtype_name": "Family Pack"
-      },
-      {
         "mealtype_id": 4,
         "mealtype_name": "Beverages"
-      },
-      {
-        "mealtype_id": 5,
-        "mealtype_name": "Desserts"
       }
     ],
     "foodtype": [
-      {
-        "foodtype_id": 1,
-        "foodtype_name": "Vegetarian"
-      },
       {
         "foodtype_id": 2,
         "foodtype_name": "Non Vegetarian"
@@ -574,14 +429,6 @@ db.zomato.insert ([
         "mealtype_name": "Combo Pack"
       },
       {
-        "mealtype_id": 3,
-        "mealtype_name": "Family Pack"
-      },
-      {
-        "mealtype_id": 4,
-        "mealtype_name": "Beverages"
-      },
-      {
         "mealtype_id": 5,
         "mealtype_name": "Desserts"
       }
@@ -590,10 +437,6 @@ db.zomato.insert ([
       {
         "foodtype_id": 1,
         "foodtype_name": "Vegetarian"
-      },
-      {
-        "foodtype_id": 2,
-        "foodtype_name": "Non Vegetarian"
       }
     ],
     "image_gallery": [
@@ -620,26 +463,14 @@ db.zomato.insert ([
         "mealtype_name": "Combo Pack"
       },
       {
-        "mealtype_id": 3,
-        "mealtype_name": "Family Pack"
-      },
-      {
         "mealtype_id": 4,
         "mealtype_name": "Beverages"
-      },
-      {
-        "mealtype_id": 5,
-        "mealtype_name": "Desserts"
       }
     ],
     "foodtype": [
       {
         "foodtype_id": 1,
         "foodtype_name": "Vegetarian"
-      },
-      {
-        "foodtype_id": 2,
-        "foodtype_name": "Non Vegetarian"
       }
     ],
     "image_gallery": [
@@ -666,26 +497,14 @@ db.zomato.insert ([
         "mealtype_name": "Combo Pack"
       },
       {
-        "mealtype_id": 3,
-        "mealtype_name": "Family Pack"
-      },
-      {
         "mealtype_id": 4,
         "mealtype_name": "Beverages"
-      },
-      {
-        "mealtype_id": 5,
-        "mealtype_name": "Desserts"
       }
     ],
     "foodtype": [
       {
         "foodtype_id": 1,
         "foodtype_name": "Vegetarian"
-      },
-      {
-        "foodtype_id": 2,
-        "foodtype_name": "Non Vegetarian"
       }
     ],
     "image_gallery": [
@@ -711,17 +530,10 @@ db.zomato.insert ([
         "mealtype_id": 2,
         "mealtype_name": "Combo Pack"
       },
-      {
-        "mealtype_id": 3,
-        "mealtype_name": "Family Pack"
-      },
+
       {
         "mealtype_id": 4,
         "mealtype_name": "Beverages"
-      },
-      {
-        "mealtype_id": 5,
-        "mealtype_name": "Desserts"
       }
     ],
     "foodtype": [
@@ -758,16 +570,8 @@ db.zomato.insert ([
         "mealtype_name": "Combo Pack"
       },
       {
-        "mealtype_id": 3,
-        "mealtype_name": "Family Pack"
-      },
-      {
         "mealtype_id": 4,
         "mealtype_name": "Beverages"
-      },
-      {
-        "mealtype_id": 5,
-        "mealtype_name": "Desserts"
       }
     ],
     "foodtype": [
@@ -804,16 +608,8 @@ db.zomato.insert ([
         "mealtype_name": "Combo Pack"
       },
       {
-        "mealtype_id": 3,
-        "mealtype_name": "Family Pack"
-      },
-      {
         "mealtype_id": 4,
         "mealtype_name": "Beverages"
-      },
-      {
-        "mealtype_id": 5,
-        "mealtype_name": "Desserts"
       }
     ],
     "foodtype": [
@@ -844,14 +640,6 @@ db.zomato.insert ([
       {
         "mealtype_id": 1,
         "mealtype_name": "Single Pack"
-      },
-      {
-        "mealtype_id": 2,
-        "mealtype_name": "Combo Pack"
-      },
-      {
-        "mealtype_id": 3,
-        "mealtype_name": "Family Pack"
       },
       {
         "mealtype_id": 4,
@@ -891,14 +679,7 @@ db.zomato.insert ([
         "mealtype_id": 1,
         "mealtype_name": "Single Pack"
       },
-      {
-        "mealtype_id": 2,
-        "mealtype_name": "Combo Pack"
-      },
-      {
-        "mealtype_id": 3,
-        "mealtype_name": "Family Pack"
-      },
+ 
       {
         "mealtype_id": 4,
         "mealtype_name": "Beverages"
@@ -936,22 +717,6 @@ db.zomato.insert ([
       {
         "mealtype_id": 1,
         "mealtype_name": "Single Pack"
-      },
-      {
-        "mealtype_id": 2,
-        "mealtype_name": "Combo Pack"
-      },
-      {
-        "mealtype_id": 3,
-        "mealtype_name": "Family Pack"
-      },
-      {
-        "mealtype_id": 4,
-        "mealtype_name": "Beverages"
-      },
-      {
-        "mealtype_id": 5,
-        "mealtype_name": "Desserts"
       }
     ],
     "foodtype": [
@@ -967,5 +732,5 @@ db.zomato.insert ([
     "image_gallery": [
       "https://i.ibb.co/JjzZ2dB/1crunchy.jpg"
     ]
-  },
-])
+  }
+] )

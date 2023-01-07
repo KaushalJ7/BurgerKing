@@ -1,0 +1,11 @@
+{
+  "name": "inbuild",
+  "version": "1.0.0",
+  "description": "This is nodejs code",
+  "main": "fs.js",
+  "scripts": {
+    "start": "node staticapi.js"
+  },
+  "author": "Developer KushalJ7",
+  "license": "ISC"
+}
