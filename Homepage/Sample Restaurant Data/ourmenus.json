@@ -1,4 +1,4 @@
-db.ourmenu.insert([
+db.ourmenus.insert([
   {
     "menu_id": 1,
     "menu_name": "Best Combo",
@@ -552,7 +552,7 @@ db.ourmenu.insert([
   },
   {
     "menu_id": 17,
-    "menu_name": "Lite Cheese Whooper",
+    "menu_name": "Cheese Whooper",
     "location_id": 17,
     "city_id": 2,
     "address": "Ground Floor, Western House, Andheri - Kurla Rd, Andheri East, Mumbai, Maharashtra 400069",

@@ -1,6 +1,6 @@
 * page 1
 # List Of City
-> http://localhost:9500/location
+>  http://localhost:9500/location
 
 # List of Restaurants
 > http://localhost:9500/ourmenu

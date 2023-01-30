@@ -17,7 +17,7 @@ db.placeorder.insert(
             "bank_name" : "ICICI",
             "date" : "07/01/2023",
             "order" : 6
-    }
+    },
     {
             "_id" : 7,
             "name" : "Veer",
@@ -34,7 +34,7 @@ db.placeorder.insert(
             "bank_name" : "SBI",
             "date" : "07/01/2023",
             "order" : 3
-    }
+    },
     {
             "_id" : 13,
             "name" : "Kush",
@@ -51,9 +51,9 @@ db.placeorder.insert(
             "bank_name" : "City",
             "date" : "07/01/2023",
             "order" : 1
-    }
+    },
     {
-            "_id" : ObjectId("63b99f9b9ebad759af8e7e1a"),
+            "_id" : "63b99f9b9ebad759af8e7e1a",
             "order" : 2,
             "name" : "Alia",
             "email" : "alia@gmail.com",
@@ -65,9 +65,9 @@ db.placeorder.insert(
                     6,
                     19
             ]
-    }
+    },
     {
-            "_id" : ObjectId("63b9a0d00e868b9871a5153b"),
+            "_id" : "63b9a0d00e868b9871a5153b",
             "order" : 5,
             "name" : "Jenil",
             "email" : "Jenil@gmail.com",
@@ -79,9 +79,9 @@ db.placeorder.insert(
                     1,
                     12
             ]
-    }
+    },
     {
-            "_id" : ObjectId("63b9a12d0e868b9871a5153c"),
+            "_id" : "63b9a12d0e868b9871a5153c",
             "order" : 4,
             "name" : "Dhrunil",
             "email" : "Dhrunil@gmail.com",

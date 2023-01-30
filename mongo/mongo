@@ -9,3 +9,20 @@ db.ourmenu.find({rating_text: "Excellent"}).pretty()
 db.ourmenu.find({city_id:1,rating_text: "Good"}).pretty()
 
 db.ourmenu.find({"mealtype.mealtype_id":1})
+
+
+//mongodb+srv://test:test123@cluster0.31rwbwq.mongodb.net/?retryWrites=true&w=majority
+
+
+
+db.order.updateOne(
+    {condition},
+    {
+        $set:{
+            data
+        }
+    }
+)
+
+
+db.order.remove({_id})

@@ -1,0 +1,55 @@
+body{
+    margin:auto;
+    background-color:rgba(224, 215, 204, 0.747)
+}
+a{
+    text-decoration: none;
+}
+/*Header Css*/
+header{
+    height:60px;
+    /* border:2px  solid red; */
+    background-color:rgb(161, 175, 192);
+    color:black
+    
+}
+
+.btn{ 
+    height: 38px;
+    width: 100px;
+    background-color:rgb(164, 197, 238);
+    color:black;
+    margin-top: 12px;
+}
+
+/* button{
+    height:38px;
+    width:100px;
+    background-color:white;
+    color:rgb(144, 140, 140)
+} */
+
+#login{
+    background-color:rgb(219, 205, 193);
+}
+
+#register{
+    background-color:rgb(219, 205, 193);
+}
+
+#icon{
+    float:left;
+    display:flex;
+}
+
+#icon > h1{
+    margin:5%
+}
+#icon > button{
+    margin: 5%
+}
+#social{
+    float:right;
+    /* margin-top: 12px; */
+    margin-right: 3%;
+}

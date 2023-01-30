@@ -29,17 +29,23 @@ app.get('/location',(req,res) => {
     })  
 })
 
-// app.get('/ourmenu',(req,res) => {
-//     let cityid = Number(req.query.cityid)
-//     let query = {}
-//     if (cityid){
-//         query={city_id:cityid}
-//     }
-//     db.collection('ourmenu').find(query).toArray((err,result) =>{
-//         if(err) throw err;
-//         res.send(result)
-//     })  
-// })
+app.get('/locations',(req,res) => {
+    db.collection('locations').find().toArray((err,result) =>{
+        if(err) throw err;
+        res.send(result)
+    })  
+})
+app.get('/ourmenus',(req,res) => {
+    let cityid = Number(req.query.cityid)
+    let query = {}
+    if (cityid){
+        query={city_id:cityid}
+    }
+    db.collection('ourmenus').find(query).toArray((err,result) =>{
+        if(err) throw err;
+        res.send(result)
+    })  
+})
 
 //menu user selected
 app.post('/menuItem',(req,res) => {
@@ -118,6 +124,23 @@ app.get('/ourmenu',(req,res) => {
         query={city_id:cityid}
     }else if (mealId){
         query={"mealTypes.mealtype_id":mealId}
+    }
+    db.collection('ourmenu').find(query).toArray((err,result) =>{
+        if(err) throw err;
+        res.send(result)
+    })  
+})
+
+app.get('/ourmenu',(req,res) => {
+    let mealtype_id = Number(req.query.mealtype_id)
+    let foodtype_id = Number(req.query.foodtype_id)
+    let query = {}
+    if (mealtype_id && foodtype_id){
+        query={mealtype_id:mealtype_id,"mealTypes.mealtype_id":mealtype_id}
+    }else if (foodtype_id){
+        query={foodtype_id:foodtype_id}
+    }else if (mealtype_id){
+        query={"mealTypes.mealtype_id":mealtype_id}
     }
     db.collection('ourmenu').find(query).toArray((err,result) =>{
         if(err) throw err;

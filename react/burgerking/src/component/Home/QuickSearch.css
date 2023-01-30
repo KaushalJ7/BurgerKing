@@ -1,0 +1,73 @@
+/*Our Menu CSS*/
+#ourmenu{
+    /* height: 200px; */
+    /* border: 5px solid blue; */
+    width:  80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#quickheading{
+    font-size: 12px;
+    display: block;
+    color: black;
+    line-height: 2;
+    margin-left: 3%;
+}
+
+#quicksubheading{
+    font-size: 22px;
+    color:black;
+    display: block;
+    margin-left: 2%;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#quicksubheading:hover{
+    font-size: 30px;
+    color:black;
+}
+
+
+.tilecontainer{
+    Width:17%;
+    Height:140px;
+    /* border: 1px solid Blue; */
+    display:inline-block;
+    margin-left: 2%;
+    margin-top: 2%;
+    box-shadow: 6px 8px 11px black;
+    animation: dance 20s infinite;
+}
+
+@keyframes dance{
+    0% {transform: rotate(-5deg)}
+    25% {transform: rotate(-0deg)}
+    50% {transform: rotate(5deg)}
+    75% {transform: rotate(0deg)}
+    100% {transform: rotate(-5deg)}
+}
+
+.tilecomponent1{
+  height: 70%;
+}
+
+.tilecomponent1 >img{
+  width: 100%;
+  height: 100%;
+}
+
+.tilecomponent1 >img:hover{
+    transform: scale(1.5);
+}
+
+.tilecomponent2{
+    height: 25%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 14%;
+    margin-left: 4%;
+    color: black;
+}

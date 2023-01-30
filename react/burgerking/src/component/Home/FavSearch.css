@@ -1,0 +1,83 @@
+/*TB Favourites CSS*/
+#tbfavourites{
+    /* height: 600px; */
+    /* border: 5px solid orange; */
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#favouritesheading{
+    font-size: 12px;
+    display: block;
+    color: black;
+    line-height: 2;
+    margin-left: 3%;
+}
+
+#favouritessubheading{
+    font-size: 22px;
+    display: block;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 2%;
+}
+
+#favouritessubheading:hover{
+    font-size: 33px;
+    color: black;
+}
+
+.boxcontainer{
+    width:28%;
+    height:144px;
+    /* border: 1px solid black; */
+    margin-left: 2%;
+    margin-right: 2%;
+    display: inline-block;
+    margin-top: 2%;
+    box-shadow: 6px 8px 11px black;
+    animation: dance 20s infinite;
+}
+
+@keyframes dance{
+    0% {transform: rotate(-5deg)}
+    25% {transform: rotate(-0deg)}
+    50% {transform: rotate(5deg)}
+    75% {transform: rotate(0deg)}
+    100% {transform: rotate(-5deg)}
+}
+
+
+.component1{
+    width: 55%;
+    height: 100%;
+    float: left;
+}
+
+.component1 > img{
+    width: 100%;
+    height: 100%;
+}
+
+.component1 >img:hover{
+    transform: scale(1.5);
+}
+
+.component2{
+    width: 40%;
+    height:100%;
+    text-align: center;
+    font-weight:bold;
+    float:left;
+    margin-top: 20%;
+    margin-left: 3%;
+    color: black;
+    /* visibility: visible; */
+}
+
+/* .component2:hover{
+    visibility: hidden;
+} */

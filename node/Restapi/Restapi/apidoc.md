@@ -1,12 +1,14 @@
 * page 1
 # List Of City
 > http://localhost:9500/location
+>http://localhost:9500/locations
 
 # List of Restaurants
 > http://localhost:9500/menu
 
 > # List of Restaurants wrt City
 > http://localhost:9500/ourmenu?cityid=2
+http://localhost:9500/ourmenus?cityid=1
 
 
 # List of mealType
